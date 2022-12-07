@@ -1,0 +1,17 @@
+
+.header{
+    display:flex;
+    justify-content: space-around;
+    padding: 30px 120px;
+    align-items: center;
+
+}
+
+.nav{
+    display:flex;
+    /*grid-template-columns: repeat(4,1fr);*/
+    list-style-type: none;
+    border: black;
+    
+    
+}
