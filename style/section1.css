@@ -1,4 +1,7 @@
 
+.container{
+    background-color: var(--background-color1);
+}
 .header{
     display:flex;
     justify-content: space-around;
@@ -10,8 +13,101 @@
 .nav{
     display:flex;
     /*grid-template-columns: repeat(4,1fr);*/
-    list-style-type: none;
-    border: black;
     
-    
+    justify-content: start;
+    height: 39px;    
+    width: 404px;
+    /*background-color: aqua;*/
+
+
+
 }
+.home{
+    display: flex;
+    border: 1px solid #111111;
+  align-items: center;
+  gap:10px;
+  width: 98px;
+  justify-content: center;
+
+}
+.home>p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color:var(--colorleter1);
+
+}
+.simil{
+display: flex;
+border-style: solid;
+border-width: 1px 1px 1px 0px;
+border-color: rgba(17, 17, 17, 0.5);
+gap:10px;
+align-items: center;
+justify-content: center;
+
+}
+.simil>p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+color: rgba(17, 17, 17, 0.5);
+}
+.p1{
+    width: 96px;
+}
+.p2{
+    width: 97px;
+}
+.p3{
+    width: 113px;
+}
+
+.circle>p{
+ font-family: 'MADE SAONARA';
+font-style: normal;
+text-transform: uppercase;
+font-size: 48px;
+color: var(--colorleter1);
+
+
+}
+.search{
+    display: flex;
+    align-items: center;
+    background: var(--background-color4);
+    border-radius: 12px;
+    width: 256px;
+    height: 44px;
+}
+.search> h4{
+font-family: 'Inter';
+font-style: normal;
+color: rgba(17, 17, 17, 0.5);
+font-size: 14px;
+}
+.button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 22px;
+gap: 10px;
+
+width: 123px;
+height: 44px;
+background: var(--background-color2);
+border-radius: 12px;
+
+}
+.button>p{
+    color:var(--background-color4);
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 600;
+}
+
