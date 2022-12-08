@@ -1,7 +1,8 @@
 .section3{
-    
+    position: relative;
     width: 1200px;
 height: 1211px;
+left: 120px;
 }
 .init{
 display: flex;
@@ -10,9 +11,9 @@ font-style: normal;
 font-weight: 400;
 font-size: 64px;
 line-height: 120%;
-color: #111111;
+color:var(--colorleter1);
 justify-content: center;
-margin-top: 140px;
+margin-top: 200px;
 
 }
 .direction{
@@ -36,7 +37,7 @@ height: 44px;
 left: 1156px;
 top: 87px;
 
-background: #FFFFFF;
+background: var(--background-color4);
 box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
 border-radius: 6px;
 }
