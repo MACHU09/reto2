@@ -1,7 +1,7 @@
 
 
 .inifo{
-    width: 1440px;
+    width:100%;
 height: 358px;
 position: relative;
 top:250px;
@@ -127,4 +127,15 @@ ul {
 }
 .hj{
     color:var(--color-letter2);
+}
+
+@media screen and(max-width:375px){
+    .MetaConteiner{
+        width: 100%;
+    }
+
+    .search{
+        width: 60%;
+
+    }
 }
