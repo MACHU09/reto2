@@ -6,13 +6,125 @@ height: 358px;
 position: relative;
 top:250px;
 border:solid black;
+background-color: var(--background-color5);
+padding: 60px 120px 12px 120px;
 }
+.circl{
+    font-family: 'MADE SAONARA';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 120%;
+text-transform: uppercase;
+margin-bottom: 16px;
+color:var(--background-color4);
+}
+.circlhj{
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
 
+}
+.circlF{
+    margin-bottom: 16px;
+}
+.whiteleter{
+    color:var(--background-color4);
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 120%;
+}
 .endf{
+    width: 1200px;
     display:flex;
     justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 60px;
+       
+}
+/*.hk{
+    font-size: 12px;
+}*/
+.endf, .polic > .hj{
+    font-size: 12px;
 }
 .polic{
     display:flex ;
     gap:10px;
+}
+.principal{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 51px;
+}
+.foot2{
+    display: flex;
+   justify-content: space-between;
+   gap:103px;
+}
+.buttox{
+    display: flex;
+    justify-content: space-between;
+    background: var(--background-color4);
+border-radius: 12px;
+align-items: center;
+margin-top: 16px;
+width: 280px;
+}
+
+.send{
+    background-color: var(--background-color2);
+    /*border-top-right-radius: 12px 12px;
+    border-bottom-right-radius: 12px 12px;*/
+    border-radius: 0px 12px 12px 0px;
+   
+    
+    
+    
+
+}
+.here{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: rgba(17, 17, 17, 0.5);
+width: 279px;
+padding-left: 14px;
+
+
+
+}
+.foot2>li{
+    color: rgba(255, 255, 255, 0.5);
+
+
+}
+ul {
+    list-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+  
+}
+.discor{
+    padding-bottom: 28px;
+}
+.refer{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+}
+.hj{
+    color:var(--color-letter2);
 }
