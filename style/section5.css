@@ -19,7 +19,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 64px;
 line-height: 120%;
-color: #111111;
+color: var(--colorleter1);
 text-align: center;
 }
 .reference{
@@ -62,6 +62,7 @@ background: linear-gradient(180deg, rgba(17, 17, 17, 0.049) 49.34%,
 border-radius: 16px;
 border-radius: 16px;
 
+
 }
 .baybe{
     position: relative;
@@ -71,7 +72,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 48px;
 line-height: 120%;
-color: #FFFFFF;
+color: var(--background-color4);
 text-shadow: 0px 4px 100px #000000;
 padding-left: 30px;
 

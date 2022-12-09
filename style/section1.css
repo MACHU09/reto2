@@ -104,19 +104,22 @@ align-items: center;
 padding: 12px 22px;
 gap: 10px;
 
-width: 123px;
-height: 44px;
 background: var(--background-color2);
 border-radius: 12px;
 
+color:var(--background-color4);
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 600;
+
 }
-.button>p{
+/*.button>p{
     color:var(--background-color4);
     font-family: 'Inter';
     font-size: 16px;
     font-weight: 600;
 }
-
+*/
 
 .winter{
 position: relative;

@@ -50,7 +50,7 @@ color: #111111;
     width: 151px;
    height: 52px;
 
-background: #FF7220;
+background: var(--background-color2);
 border-radius: 12px;
 font-family: 'Inter';
 font-style: normal;
